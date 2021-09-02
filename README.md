@@ -7,6 +7,12 @@ Este Projeto cria um servidor NodeJs que utiliza o framework Express para utiliz
 - As requisições são feitas através de body-parser que receber os parametros via x-www-form-encoded das requisições
 - app é injetado no módulo UserRoute 
 
+# Execução : 
+
+- node index.js executa o servidor 
+
+
+# Conteúdos  
 Node JS é Js sendo executado do lado do servidor 
 
 - 2009 por Ryan Dahl
