@@ -22,4 +22,11 @@ Node JS é Js sendo executado do lado do servidor
 - Métodos HTTP e middlewares 
 - npm i
 - npm install express --save  (saves to package.json)
+
+## Rotas 
+
+- vamos instalar o bodyparser para receber os parametros pelo post das  requisições  
+/// dado do post para objeto
+app.use(bodyParser.urlencoded({ extended : false}))
+- x-www-form-encoded (requisicoes de form)
 - 
