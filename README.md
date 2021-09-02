@@ -1,4 +1,12 @@
 # Introdução ao NodeJs 
+Este Projeto cria um servidor NodeJs que utiliza o framework Express para utilizar um json que simula (mock) um Banco de dados contendo informações de usuários.
+- Fs é usado file management 
+- path para lidar com pastas de arquivos
+- fs.writeFileSync para escrita em arquivo 
+- São construidas as rotas get, post , put e delete para o usuário com envio de status e mensagem
+- As requisições são feitas através de body-parser que receber os parametros via x-www-form-encoded das requisições
+- app é injetado no módulo UserRoute 
+
 Node JS é Js sendo executado do lado do servidor 
 
 - 2009 por Ryan Dahl
@@ -29,4 +37,3 @@ Node JS é Js sendo executado do lado do servidor
 /// dado do post para objeto
 app.use(bodyParser.urlencoded({ extended : false}))
 - x-www-form-encoded (requisicoes de form)
-- 
